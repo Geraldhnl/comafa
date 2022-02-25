@@ -15,7 +15,7 @@ $header = "From:comafa@industria.com"."\r\n".
             "Repley-To:".$email."\e\n".
             "X=Mailer:PHP/".phpversion();
 
-    if (mail($to,$subjet,$body,$header)){
+if (mail($to,$subject,$body,$header)){
 
     echo("Email enviado com sucesso");
 }
