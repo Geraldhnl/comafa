@@ -7,7 +7,7 @@ $email = addcslashes($_POST['email']);
 $mensagem = addcslashes($_POST['mesage']);
 
 $to = "geraldlima2112@gmail.com";
-$subjet = "Contado - Site comafa";
+$subject = "Contado - Site comafa";
 $body = "Nome: ".$nome. "\r\n".
         "Email: ".$email. "\r\n".
         "Mensagem: ".$mesage;
