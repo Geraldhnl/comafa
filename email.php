@@ -10,7 +10,7 @@ $to = "geraldlima2112@gmail.com";
 $subject = "Contado - Site comafa";
 $body = "Nome: ".$nome. "\r\n".
         "Email: ".$email. "\r\n".
-        "Mensagem: ".$mesage;
+        "Mensagem: ".$mensagem;
 $header = "From:comafa@industria.com"."\r\n".
             "Repley-To:".$email."\e\n".
             "X=Mailer:PHP/".phpversion();
